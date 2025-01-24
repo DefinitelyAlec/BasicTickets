@@ -1,6 +1,6 @@
 /* NavBar.css */
 .navbar {
-    background-color: #333;
+    /* background-color: #333; */
     padding: 10px 20px;
   }
   
@@ -11,20 +11,16 @@
   }
   
   .navbar-logo {
-    color: #fff;
     font-size: 24px;
     text-decoration: none;
   }
   
   .navbar-links {
     display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
   }
   
   .navbar-link {
-    color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s;
@@ -45,17 +41,13 @@
     .navbar-links.active {
       display: flex; /* Show when active */
     }
-  
-    .navbar-logo {
-      font-size: 20px;
-    }
+
   }
 
 /* NavBar.css (add these styles for mobile toggle) */
 .navbar-toggle {
     background: none;
     border: none;
-    color: #fff;
     font-size: 30px;
     cursor: pointer;
     display: none;
